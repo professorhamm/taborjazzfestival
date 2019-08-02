@@ -1,20 +1,15 @@
 /* Variables */
 
 :root {
-	--back-color: #faf8f4;
-	--text-color: #241f20;
-	--foot-color: #e5d064;
-	--link-color: #825c24;
-	--inactive-color: #888888;
-	--text: helvetica, sans-serif;
+
 }
 
 /* Grid */
 
 body {
-  font-family: var(--text);
-  color: var(--text-color);
-  background: var(--back-color);
+  background: #fafafa;
+	color: #222222;
+	font-family: helvetica, sans-serif;
 }
 
 header, section, footer {
@@ -27,6 +22,6 @@ header, section, footer {
   padding: 2em 0;
 }
 
-.title, .performers, .info {
+.title, .performers, .info, .host {
 	grid-column: 2 / span 12;
 }
