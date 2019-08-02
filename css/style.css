@@ -1,0 +1,32 @@
+/* Variables */
+
+:root {
+	--back-color: #faf8f4;
+	--text-color: #241f20;
+	--foot-color: #e5d064;
+	--link-color: #825c24;
+	--inactive-color: #888888;
+	--text: helvetica, sans-serif;
+}
+
+/* Grid */
+
+body {
+  font-family: var(--text);
+  color: var(--text-color);
+  background: var(--back-color);
+}
+
+header, section, footer {
+  display: grid;
+  grid-template-columns:
+    minmax( 1rem, 1fr )
+    repeat( 12, minmax( 1em, 2em ) )
+    minmax( 1rem, 1fr );
+  grid-column-gap: 2%;
+  padding: 2em 0;
+}
+
+.title, .performers, .info {
+	grid-column: 2 / span 12;
+}
