@@ -6,12 +6,6 @@
 
 /* Grid */
 
-body {
-  background: #fafafa;
-	color: #222222;
-	font-family: helvetica, sans-serif;
-}
-
 .header, .main, .secondary, .footer {
   display: grid;
   grid-template-columns:
@@ -27,6 +21,12 @@ body {
 }
 
 /* Typography */
+
+body {
+  background: #fafafa;
+	color: #222222;
+	font-family: helvetica, sans-serif;
+}
 
 h1, h2, h3, h4, h5, h6, p {
 	font-size: 1.2em;
