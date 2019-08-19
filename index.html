@@ -11,26 +11,28 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   </head>
 
   <body>
 
     <header class="header">
-      <div class="title">
+      <div class="title" data-aos="appear">
         <h1>Tabor Jazz Festival</h1>
       </div>
     </header>
 
     <section class="main">
-      <div class="performers">
+      <div class="performers data-aos="appear"">
         <h2>Dave Brubeck</h2>
         <h2>Miles Davis</h2>
         <h2>John Coltrane</h2>
       </div>
     </section>
-    
+
     <section class="secondary">
-      <div class="info">
+      <div class="info" data-aos="appear">
         <p>Wednesday, October 5, 2019</p>
         <p>7:00 pm</p>
         <p>Regier Atrium</p>
@@ -39,11 +41,15 @@
     </section>
 
     <footer class="footer">
-      <div class="host">
+      <div class="host" data-aos="appear">
         <p>Tabor College Music Department</p>
         <p>Spring Concert Series</p>
       </div>
     </footer>
+
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

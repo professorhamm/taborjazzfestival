@@ -13,7 +13,7 @@
     repeat( 12, minmax( 1em, 2em ) )
     minmax( 1rem, 1fr );
   grid-column-gap: 2%;
-  padding: 2em 0;
+  padding: 8em 0;
 }
 
 .title, .performers, .info, .host {
@@ -31,4 +31,15 @@ body {
 h1, h2, h3, h4, h5, h6, p {
 	font-size: 1.2em;
 	font-weight: bold;
+}
+
+/* Animations */
+
+[data-aos="appear"] {
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+[data-aos="appear"].aos-animate {
+  opacity: 1;
 }
